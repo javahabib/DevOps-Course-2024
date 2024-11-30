@@ -13,8 +13,8 @@ This project uses the following:
 
 The project consists of the following files:
 
-- `**index.html**`: A simple HTML file containing the webpage content.
-- `**Dockerfile**`: A configuration file for building the Docker image and running the Nginx server.
+- `index.html`: A simple HTML file containing the webpage content.
+- `Dockerfile`: A configuration file for building the Docker image and running the Nginx server.
 
 ---
 
@@ -22,13 +22,13 @@ The project consists of the following files:
 
 Follow these steps to run the application locally using Docker.
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
   ```bash
-   git clone <[repository-url](https://github.com/zaibunnisaq/DevOps-Course-2024/Docker_NGINX-Web-App)>
-   cd <[repository-directory](https://github.com/zaibunnisaq/DevOps-Course-2024)>
+   git clone https://github.com/javahabib/DevOps-Course-2024/INGINX-Docker-Webapp
+   cd https://github.com/javahabib/DevOps-Course-2024
 ```
 
-###2️⃣ Build the Docker Image
+2️⃣ Build the Docker Image
 In the project directory, build the Docker image:
 ```bash
 docker build -t nginx-webapp .
